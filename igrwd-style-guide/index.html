@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>InvestorsGroup.com style guide</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/screen.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -271,9 +271,41 @@
     </div>
 
     <div class="section forms">
-      <div class="large-12 columns">
-        <h2>Forms</h2>
-        <p>A section on form elements and layout.</p>
+      <div class="row">
+        <div class="large-12 columns">
+          <h2>Forms</h2>
+          <p class="desc">A section on form elements and layout.</p>
+          <label>Input Label
+            <input type="text" placeholder="Placeholder here" class="large-4 columns" />
+          </label>
+          <label>Input Label
+            <input type="text" placeholder="" class="large-6 columns" />
+          </label>
+          <label>Input Label
+            <input type="text" placeholder="" class="large-6 columns" />
+          </label>
+          <label>Select Box
+            <select>
+              <option value="husker">Husker</option>
+              <option value="starbuck">Starbuck</option>
+              <option value="hotdog">Hot Dog</option>
+              <option value="apollo">Apollo</option>
+            </select>
+          </label>
+          <a href="#" class="button expand radius">Expanded Radius Button</a>
+          <ul class="button-group">
+            <li><a href="#" class="button radius">Button 1</a></li>
+            <li><a href="#" class="button">Button 2</a></li>
+            <li><a href="#" class="button radius">Button 3</a></li>
+          </ul>
+          <a href="#" class="button split radius">Split Button <span data-dropdown="drop"></span></a><br>
+          <ul id="drop" class="f-dropdown" data-dropdown-content>
+            <li><a href="#">This is a link</a></li>
+            <li><a href="#">This is another</a></li>
+            <li><a href="#">Yet another</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     
     <script src="js/vendor/jquery.js"></script>
