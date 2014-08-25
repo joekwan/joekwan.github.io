@@ -1,0 +1,211 @@
+html {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-weight: 900;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.25;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+p, li {
+	font-weight: 300;
+}
+
+p a {
+	color: #369;
+	border-bottom: 1px dashed #369;
+}
+
+p a:hover {
+	color: #369;
+	border:none;
+}
+
+blockquote {
+	font-family: 'Roboto Slab';
+	font-size: 1.6em;
+	font-weight: 100;
+}
+
+/* Colours */
+
+.blue {
+	background-color: #00416F;
+	color: #FFF;
+}
+
+.cream {
+	background-color: #FFF4C9;
+}
+
+.orange {
+	background-color: #DC5114;
+	color: #FFF;
+}
+
+.green {
+	background-color: #285142;
+	color: #FFF;
+}
+
+.grey {
+	background-color: #4C5154;
+	color: #FFF;
+}
+
+.black {
+	background-color: #000;
+	color: #FFF;
+}
+
+.light {
+	background: url(../img/bg-trans-light.png);
+}
+
+.dark {
+	background: url(../img/bg-trans-dark.png);
+}
+
+.colours li {
+	list-style-type: none;
+	text-align: center;
+}
+
+/* End colours */
+
+/* Intro section styles */
+
+.intro {
+	background-color: #555;
+	padding: 2em 0;
+	margin-bottom: -2em;
+}
+
+.intro h1, .intro p {
+	color: #FFF;
+}
+
+
+/* End intro section styles */
+
+/* Layout section styles */
+
+.add-border {
+	border:1px dashed #000;
+}
+
+/* End layout section styles */
+
+/* Panel styles */
+
+.panel {
+	background: #FDFDFD !important;
+	padding: 3rem;
+	border-color: #EEE;
+}
+
+.panel h1, .panel h2 {
+	text-align: left;
+	font-weight: normal;
+}
+
+.panel .subheader {
+	font-size: 1.8rem;
+	color: #999;
+}
+
+/* End panel styles */
+
+.desc {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 200;
+}
+
+.img-center {
+	margin: 0 auto;
+	display: block;
+	border:1px solid #CCC;
+	border-radius: 5px;
+}
+
+.logo img {
+	margin: 0 auto;
+	display: block;
+}
+
+.section {
+	border-top: 1px solid #CCC;
+	margin-top: 2em;
+	padding:2em 0;
+}
+
+.slab h3, .slab p {
+	font-family: 'Roboto Slab'
+}
+
+.swatch {
+	border-radius: 50%;
+	width: 6.25em;
+	height: 6.25em;
+	text-align: center;
+	padding-top: 2.25em;
+	margin:0 auto;
+	margin-bottom: .5em;
+	display: block;
+}
+
+/* Media queries */
+
+/* Small screens */
+@media only screen {
+
+}
+
+/* Medium screens min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+
+	h1 {
+	    font-size: 2.5em;
+	    line-height: 1.125;
+	}
+
+}
+
+/* Large screens min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+
+	h1 {
+	    font-size: 3em;
+	    /* 3x body copy size = 48px */
+	    line-height: 1.05;
+	    /* keep to a multiple of the 20px line height 
+	    and something more appropriate for display headings */
+	}
+
+}
+
+
+/* Debugging queries */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+
+/* Experimental sizes - won't use yet */
+/*
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens 
+*/
+
+/* End media queries */
