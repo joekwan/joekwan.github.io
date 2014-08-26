@@ -110,7 +110,7 @@ blockquote {
 	border-color: #EEE;
 }
 
-.panel h1, .panel h2 {
+.panel h1, .panel h2, .panel h3 {
 	text-align: left;
 	font-weight: normal;
 }
