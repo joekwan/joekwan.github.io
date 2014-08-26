@@ -64,6 +64,11 @@ blockquote {
 	color: #FFF;
 }
 
+.white {
+	background-color: #FFF;
+	color: #000;
+}
+
 .light {
 	background: url(../img/bg-trans-light.png);
 }
@@ -126,6 +131,10 @@ blockquote {
 	text-align: center;
 	font-size: 1.4em;
 	font-weight: 200;
+}
+
+.error {
+	border: 1px solid red !important;
 }
 
 .img-center {

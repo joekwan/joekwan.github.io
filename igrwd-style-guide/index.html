@@ -20,7 +20,7 @@
         </div>
         <div class="large-12 columns">
           <h1>InvestorsGroup.com style guide</h1>
-          <p class="desc">This guide is intended to aid in keeping our brand and website visually consistent as it grows and progresses. The more consistent and calculated we can be, the more professional and familier our brand will be. Drupalize.Me is a growing entity and therefore a brandguide is crucial in keeping our product on the right track. If there is anything unclear in this guide please bring it to the teams attention.</p>
+          <p class="desc">This guide is intended to aid in keeping our brand and website visually consistent as it grows and progresses. The more consistent and calculated we can be, the more professional and familier our brand will be. If there is anything unclear in this guide please bring it to the teams attention.</p>
         </div>
       </div>
     </div>
@@ -145,10 +145,10 @@
                 <td>1.1</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>$201.09</td>
+                <td>$200.17</td>
+                <td>$197.41</td>
+                <td>5.7</td>
               </tr>
             </tbody>
           </table>
@@ -169,6 +169,10 @@
           <p class="desc">On light backgrounds</p>
           <p><img src="img/logo-ig-large-rev.png" class="img-center dark" /></p>
           <p class="desc">On dark backgrounds</p>
+          <p><img src="img/logo-ig-k-large.png" class="img-center white" /></p>
+          <p class="desc">Black and white</p>
+          <p><img src="img/logo-ig-k-large-rev.png" class="img-center black" /></p>
+          <p class="desc">Black and white reversed</p>
           <h3>Favicons and touch device icons</h3>
           <p class="desc">Our favicon is the <strong>only</strong> instance where it is acceptable to have the logo separated from the wordmark.</p>
           <p><img src="img/image-favicon.png" class="img-center" style="padding:1.5em;"></p>
@@ -177,13 +181,18 @@
     </div>
 
     <div class="section iconography">
+      <div class="row">
+        <div class="large-12 columns">
+            <h2>Iconography</h2>
+        </div>
+      </div>
     </div>
 
     <div class="section layout">
       <div class="row">
         <div class="large-12 columns">
           <h2>Layout</h2>
-          <p class="desc">The site uses the <a href="http://foundation.zurb.com">Foundation framework</a> with a 12-column grid in one, two, three, and four (even) column variations. We also use uneven column layouts like one-third/two thirds and one-quarter/three-quarters.</p>
+          <p class="desc">The site uses the <a href="http://foundation.zurb.com">Foundation 5 framework</a> with a 12-column grid in one, two, three, and four (equal) column variations. We also use uneven column layouts like one-third/two thirds and one-quarter/three-quarters.</p>
           <h3>One column</h3>
           <div class="row">
             <div class="large-12 columns panel">
@@ -232,7 +241,7 @@
               </div>
             </div>
           </div>
-          <h4>One third/two thirds</h4>
+          <h3>One third/two thirds</h3>
           <div class="row">
             <div class="large-12 columns panel">
               <div class="large-4 columns">
@@ -243,7 +252,7 @@
               </div>
             </div>
           </div>
-          <h4>One quarter/three quarters</h4>
+          <h3>One quarter/three quarters</h3>
           <div class="row">
             <div class="large-12 columns panel">
               <div class="large-3 columns">
@@ -254,7 +263,7 @@
               </div>
             </div>
           </div>
-          <h4>Half/one quarter/one quarter</h4>
+          <h3>Half/one quarter/one quarter</h3>
           <div class="row">
             <div class="large-12 columns panel">
               <div class="large-6 columns">
@@ -268,7 +277,7 @@
               </div>
             </div>
           </div>
-          <h4>One quarter/half/one quarter</h4>
+          <h3>One quarter/half/one quarter</h3>
           <div class="row">
             <div class="large-12 columns panel">
               <div class="large-3 columns">
@@ -292,16 +301,17 @@
           <h2>Forms</h2>
           <p class="desc">A section on form elements and layout.</p>
           <label>Input Label
-            <input type="text" placeholder="Placeholder here" class="large-4 columns" />
+            <input type="text" placeholder="" class="radius" />
           </label>
           <label>Input Label
-            <input type="text" placeholder="" class="large-6 columns" />
+            <input type="text" placeholder="Optional" class="radius" />
           </label>
           <label>Input Label
-            <input type="text" placeholder="" class="large-6 columns" />
+            <input type="text" placeholder="" class="radius error" />
+            <span style="color:red;margin-bottom:3em;">There is some sort of error with this field.</span>
           </label>
-          <label>Select Box
-            <select>
+          <label style="margin-top:1em;">Select Box
+            <select class="radius">
               <option value="husker">Husker</option>
               <option value="starbuck">Starbuck</option>
               <option value="hotdog">Hot Dog</option>
@@ -320,13 +330,34 @@
             <li><a href="#">This is another</a></li>
             <li><a href="#">Yet another</a></li>
           </ul>
-          <div class="row collapse postfix-round">
+          <div class="row collapse postfix-radius">
             <div class="small-10 columns">
               <input type="text" placeholder="EG. Mutual funds, tax advice, life events">
             </div>
             <div class="small-2 columns">
               <a href="#" class="button postfix">Search</a>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section alerts">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2>Alerts</h2>
+          <p class="desc">Styling and interaction for the alerts on the Client Resources page.</p>
+          <div data-alert class="alert-box success radius">
+            This is a success alert.
+            <a href="#" class="close">&times;</a>
+          </div>
+          <div data-alert class="alert-box warning radius">
+            This is a warning alert.
+            <a href="#" class="close">&times;</a>
+          </div>
+          <div data-alert class="alert-box secondary radius">
+            This is a secondary alert.
+            <a href="#" class="close">&times;</a>
           </div>
         </div>
       </div>
