@@ -159,6 +159,10 @@ blockquote {
 	font-family: 'Roboto Slab'
 }
 
+.sub {
+	font-size: 1.4em;
+}
+
 .swatch {
 	border-radius: 50%;
 	width: 6.25em;
@@ -196,6 +200,26 @@ blockquote {
 	    line-height: 1.05;
 	    /* keep to a multiple of the 20px line height 
 	    and something more appropriate for display headings */
+	}
+
+	.homepage-banner {
+		background: url(../img/homepage-02.jpg) center no-repeat;
+		height: 425px;
+		border: 1px dashed #444;
+	}
+
+	.homepage-banner h2 {
+		color: #285142;
+		color: #3e910d;
+		text-align: left;
+		margin-top:2em;
+		font-size: 3rem;
+		line-height: 1.2em;
+	}
+
+	.homepage-banner-copy {
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 }
