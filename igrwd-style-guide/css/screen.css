@@ -29,8 +29,13 @@ p a:hover {
 
 blockquote {
 	font-family: 'Roboto Slab';
-	font-size: 1.6em;
+	font-size: 2.2em;
 	font-weight: 100;
+	color: #DC5114;
+	xcolor: #00416F;
+	border: none;
+	line-height: 1.3em;
+	margin-bottom: 2rem;
 }
 
 /* Colours */
@@ -83,6 +88,51 @@ blockquote {
 }
 
 /* End colours */
+
+/* Nav */
+
+.nav {
+	background-color: #323232;
+	height: 4em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.nav ul {
+	display: inline-block;
+	margin: 0 auto;	
+	margin-top: 1.25em;
+	list-style: none;
+}
+
+.nav ul li {
+	display: inline;
+	float: left;
+	margin: 0 .5em;
+	color: white;
+}
+
+.nav ul li a {
+	padding:.5em;
+}
+
+.nav ul li a:hover {
+	background-color: #CCC;
+	border-radius: 5px;
+	text-decoration: underline;
+}
+
+.sticky {
+	position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;
+    margin-top: 0;
+}
+
+/* End nav */
 
 /* Intro section styles */
 
@@ -150,9 +200,8 @@ blockquote {
 }
 
 .section {
-	border-top: 1px solid #CCC;
-	margin-top: 2em;
-	padding:2em 0;
+	padding:4em 0;
+	border-bottom: 1px solid #CCC;
 }
 
 .slab h3, .slab p {

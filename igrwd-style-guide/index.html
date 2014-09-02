@@ -25,7 +25,26 @@
       </div>
     </div>
 
-    <div class="section colours">
+    <div class="nav">
+      <div class="row">
+        <div class="large-12 columns">
+          <ul>
+            <li style="font-weight:700;">TOPICS</li>
+            <li><a href="#colours">Colours</a></li>
+            <li><a href="#type">Typography</a></li>
+            <li><a href="#logos">Logo usage</a></li>
+            <li><a href="#icons">Iconography</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#alerts">Alerts</a></li>
+            <li><a href="#banners">Banners</a></li>
+            <li><a href="#videos">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section colours" id="colours">
       <div class="row">
         <div class="large-12 columns">
           <h2>Colours</h2>
@@ -88,7 +107,7 @@
       </div>
     </div>
 
-    <div class="section typography">
+    <div class="section typography" id="type">
       <div class="row">
         <div class="large-12 columns">
           <h2>Typography</h2>
@@ -111,10 +130,10 @@
       </div>
       <div class="row">
         <div class="small-9 small-centered columns panel">
-          <h1>Corned beef bacon sirloin</h1>
+          <h1>Corned beef bacon sirloin [H1]</h1>
           <h1 class="subheader">Capicola tenderloin cow, meatloaf rump salami kielbasa turkey ham</h1>
           <p>Bacon ipsum dolor sit amet ground round pork belly bresaola leberkas tail kielbasa. Short ribs shoulder porchetta ham hock tongue sausage swine. Pork ground round sausage drumstick tail kielbasa filet mignon swine <a href="">jerky fatback pork chop hamburger t-bone landjaeger</a>. Turducken venison jowl, <a href="">strip steak short ribs rump</a> corned beef. Shank tri-tip cow boudin leberkas flank turkey. Meatball pastrami venison shankle drumstick tri-tip ball tip sausage tenderloin capicola.</p>
-          <h2>Porchetta turducken drumstick, boudin tongue short loin</h2>
+          <h2>Porchetta turducken drumstick, boudin tongue short loin [H2]</h2>
           <p>Frankfurter fatback swine brisket turducken rump corned beef spare ribs. Capicola tenderloin cow, meatloaf rump salami kielbasa turkey ham hock swine chuck biltong jerky hamburger. Tail biltong filet mignon, beef kielbasa jerky tri-tip. Jerky ham ham hock.</p>
           <ul>
             <li>Tenderloin bresaola pastrami pork chop ball tip corned beef andouille drumstick pork belly beef.</li>
@@ -160,7 +179,7 @@
       </div>
     </div>
 
-    <div class="section logos">
+    <div class="section logos" id="logos">
       <div class="row">
         <div class="large-12 columns">
           <h2>Logo usage</h2>
@@ -184,15 +203,24 @@
       </div>
     </div>
 
-    <div class="section iconography">
+    <div class="section iconography" id="icons">
       <div class="row">
         <div class="large-12 columns">
             <h2>Iconography</h2>
+            <p class="desc">Blurb about consistent icon treatment, flat, square with rounded corners, etc...</p>
+            <ul class="small-block-grid-3">
+              <li><img src="img/icons/facebook.png" /></li>
+              <li><img src="img/icons/twitter.png" /></li>
+              <li><img src="img/icons/youtube.png" /></li>
+              <li><img src="img/icons/google+.png" /></li>
+              <li><img src="img/icons/linkedin.png" /></li>
+              <li><img src="img/icons/youtube.png" /></li>
+            </ul>
         </div>
       </div>
     </div>
 
-    <div class="section layout">
+    <div class="section layout" id="layout">
       <div class="row">
         <div class="large-12 columns">
           <h2>Layout</h2>
@@ -299,7 +327,7 @@
       </div>
     </div>
 
-    <div class="section forms">
+    <div class="section forms" id="forms">
       <div class="row">
         <div class="large-12 columns">
           <h2>Forms</h2>
@@ -356,7 +384,7 @@
       </div>
     </div>
 
-    <div class="section alerts">
+    <div class="section alerts" id="alerts">
       <div class="row">
         <div class="large-12 columns">
           <h2>Alerts</h2>
@@ -377,10 +405,11 @@
       </div>
     </div>
 
-    <div class="section banners">
+    <div class="section banners" id="banners">
       <div class="row">
         <div class="large-12 columns">
           <h2>Banners</h2>
+          <p class="desc">Blurb on banners.</p>
         </div>
         <div class="large-12 columns">
           <div class="row homepage-banner">
@@ -395,11 +424,42 @@
         </div>
       </div>
     </div>
+
+    <div class="section videos" id="videos">
+      <div class="row">
+        <div class="large-12 columns">
+
+        </div>
+      </div>
+    </div>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script>
+      
       $(document).foundation();
+
+      $(document).ready(function() {  
+        var stickyNavTop = $('.nav').offset().top;  
+          
+        var stickyNav = function(){  
+        var scrollTop = $(window).scrollTop();  
+               
+        if (scrollTop > stickyNavTop) {   
+            $('.nav').addClass('sticky');  
+        } else {  
+            $('.nav').removeClass('sticky');   
+        }  
+      };
+
+      stickyNav();  
+  
+$(window).scroll(function() {  
+    stickyNav();  
+});  
+});  
+
     </script>
   </body>
 </html>
