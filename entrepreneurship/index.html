@@ -6,7 +6,7 @@
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700,800' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
@@ -54,7 +54,7 @@
     <div class="about">
       <div class="row">
         <div class="large-12 columns">
-          <h2>Entrepreneurship at Waterloo</h2>
+          <h2>What is Entrepreneurship at Waterloo?</h2>
           <ul class="small-block-grid-5">
             <li><img src="img/about-conrad.jpg" />Kielbasa prosciutto fatback ham hock swine bacon short ribs pork belly, shankle venison pig turkey shoulder.</li>
             <li><img src="img/about-velocity.jpg" />Kielbasa prosciutto fatback ham hock swine bacon short ribs pork belly, shankle venison pig turkey shoulder.</li>
@@ -71,35 +71,51 @@
         <div class="large-12 columns">
           <h2>Entrepreneurial events at Waterloo</h2>
         </div>
+      </div>
+      <div class="row">
+        <div class="event-spotlight">
+          <div class="large-3 columns">
+            <img src="img/startupfestival_logo_en.png" />
+          </div>
+          <div class="large-9 columns">
+            <p class="pre">Featured event</p>
+            <h3>International Startup Festival</h3>
+            <p>The International Startup Festival puts a new spin on entrepreneurship each year with content ranging from back-of-the-napkin ideas to champagne-popping exits. Keynotes, interactive how-to-sessions, powerful lessons from battle-scarred founders, and the list goes on. There’s nothing quite like Startupfest!</p>
+            <p><a href="#" class="button radius">Learn more about Startupfest</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="large-4 columns event-box">
           <ul>
-            <li class="date">September <span>5</span> 2014</li>
-            <li class="event-name"><a href="http://kentuckysportsradio.com">Prosciutto chicken hamburger pastrami</a></li>
-          </ul>      
+            <li class="date">September <span>23</span> 2014</li>
+            <li class="event-name"><a href="placeholder.html" class="modal">Velocity Science Talks</a></li>
+          </ul>
         </div>
         <div class="large-4 columns event-box">
-          <a href="#"></a>
-            <ul>
-              <li class="date">September <span>10</span> 2014</li>
-              <li class="event-name">Meatball boudin ball tip</li>
-            </ul>
-          
+          <ul>
+            <li class="date">September <span>24</span> 2014 <span clas</li>
+            <li class="event-name"><a href="placeholder.html">The Science Behind Ebola: Evolution, Epidemiology, and Experimental Treatments</a></li>
+          </ul>        
         </div>
         <div class="large-4 columns event-box">
-          <a href="#"></a>
-            <ul>
-              <li class="date">September <span>25</span> 2014</li>
-              <li class="event-name">Spare ribs kielbasa frankfurter chuck</li>
-            </ul>
-          
+          <ul>
+            <li class="date">October <span>1</span> 2014</li>
+            <li class="event-name"><a href="placeholder.html">Velocity Alpha: What’s Your Problem?</a></li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-12 columns tint">
-        <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="wisweb" data-columns=""  style="height:400px;width:100%;"></div>
-      </div>  
+    <div class="social">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2>Title for the social section</h2>  
+        </div>
+        <div class="large-12 columns tint">
+          <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="wisweb" data-columns=""  style="height:400px;width:100%;"></div>
+        </div>  
+      </div>
     </div>
 
     <div class="footer">
@@ -140,17 +156,23 @@
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/jquery.fancybox.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>    
     <script src="js/foundation.min.js"></script>
     <script>
       
       $(document).foundation();
       
-      $(function(){
+      $(document).ready(function() {
         $(".event-box").click(function(){
           window.location=$(this).find("a").attr("href"); 
           return false;
         });
-        $(".event-box").css("background-image", "url(" + ../img/bg-date-hover.png + ")");
+//        $(".fancybox").fancybox();
+          $(".modal").magnificPopup ({
+              items: {
+                  src: "placeholder.html",
+                  type: "iframe"
+              }
       });
 
     </script>

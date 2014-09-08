@@ -80,9 +80,10 @@ h2 {
 
 .events {
     padding: 2rem 0;
+    border-bottom: 1px solid #CCC;
 }
 
-.events h2 {
+.events h2, .social h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -96,11 +97,15 @@ h2 {
 .events li.date {
     text-align: center;
     text-transform: uppercase;
-    padding: .5rem;
+    position: relative;
+    top: .6rem;
 }
 
 .events li.event-name {
     text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-family: "Open Sans Condensed"
 }
 
 .events li.date span {
@@ -112,7 +117,30 @@ h2 {
 
 .event-box {
     cursor: pointer;
-    background: url(../img/bg-date.png) center no-repeat;   
+    background: url(../img/bg-date.png) center top no-repeat;   
+}
+
+.event-box:hover {
+    background: url(../img/bg-date-hover.png) center top no-repeat;
+}
+
+.event-spotlight {
+    border: 1px dashed #CCC;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    height: 18rem;
+}
+
+.event-spotlight h3 {
+    font-weight: 700;
+}
+
+.event-spotlight p.pre {
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0;
+    line-height: 1rem;
 }
 
 .about {
@@ -136,8 +164,15 @@ h2 {
     margin-bottom: .5rem;
 }
 
+.social {
+    padding: 2rem 0;
+}
+
 .tint {
     border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 1em 0;
 }
 
 .footer {
