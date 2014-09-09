@@ -179,6 +179,22 @@ blockquote {
 
 /* End panel styles */
 
+.cwpb-return {
+	height: 11.25rem;
+	background: url(../img/alert-cwpb-return.png) top center no-repeat;
+}
+
+.cwpb-return p {
+	text-align: center;
+	background-color: #FFF4C9;
+	padding: .5em 0;
+	font-size: .8em;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 40%;
+	margin: 0 auto;
+}
+
 .desc {
 	text-align: center;
 	font-size: 1.4em;
