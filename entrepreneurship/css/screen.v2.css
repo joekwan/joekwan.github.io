@@ -1,0 +1,306 @@
+body {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans Condensed";
+}
+
+p, li, table, input {
+    font-family: "Open Sans";
+    font-weight: 200;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.header {
+    background-color: #222;
+    height: 7em;
+}
+
+.header img {
+    margin-top: 1em;
+}
+
+.header .search div {
+    margin-top: 1em;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+    margin-top: 0rem;
+}
+
+.nav ul li {
+    float: left;
+    display: block;
+    margin: .4em 2.8em 0;
+    position: relative;
+    right: 50%;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.nav ul li a {
+    color: #FFF;
+}
+
+.hero {
+    background: url(../img/hero-myo-lg.jpg) center no-repeat;
+    height: 30rem;
+    padding: 3.5rem 0 0 0;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.intro {
+    font-size: 1.3rem;
+    text-align: center;
+    padding:0 5rem;
+}
+
+.trans {
+    background-color: white;
+    background: none; /* The Fallback */
+    background: rgba(255,255,255, 0.2);
+    padding: 2rem 0;
+    position: relative;
+    top: 7.5rem;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.infographic {
+    padding: 4rem 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.infographic img {
+    display: block;
+    margin: 0 auto;
+}
+
+.events {
+    padding: 2rem 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.events h2, .social h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.events ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.events li.date {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: .6rem;
+    font-family: "Open Sans Condensed";
+}
+
+.events li.event-name {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.events li.date span {
+    display: block;
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 6rem;
+    font-family: "Open Sans Condensed";
+}
+
+.event-box {
+    cursor: pointer;
+    position: relative;
+    background: url(../img/bg-date.png) center top no-repeat;
+}
+
+.event-box:hover {
+    background: url(../img/bg-date-hover.png) center top no-repeat;
+}
+
+.event-box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.event-button {
+    margin-top: 2rem;
+}
+
+.event-spotlight {
+    border: 1px dashed #CCC;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    height: 18rem;
+}
+
+.event-spotlight h3 {
+    font-weight: 700;
+}
+
+.event-spotlight p.pre {
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0;
+    line-height: 1rem;
+}
+
+.about {
+    padding: 1.5rem 0 15rem;
+    background: url(../img/bg-about.png) #757575 bottom center no-repeat;
+}
+
+.about h2 {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    text-align: center;
+}
+
+.about .desc {
+    font-size: 1.2rem;
+    color: #FFF;
+    margin: -1rem 0 2rem;
+    padding: 0 4rem;
+}
+
+.about p a {
+    font-size: .8rem;
+    color: #FFF;
+    padding-top: 8rem;
+    line-height: 1rem;
+}
+
+.about h3 {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 8rem 0 3rem;
+    line-height: 1.6rem;
+    color: white;
+}
+
+.about .conrad {
+    background: url(../img/about-conrad.jpg) top center no-repeat;
+    height: 23rem;
+}
+
+.about .velocity {
+    background: url(../img/about-velocity.jpg) top center no-repeat;
+    height: 23rem;
+}
+
+.about .eng {
+    background: url(../img/about-engineering.jpg) top center no-repeat;
+    height: 23rem;
+}
+
+.about .sso {
+    background: url(../img/about-sso.jpg) top center no-repeat;
+    height: 23rem;
+}
+
+.about .sso span {
+    margin-bottom: 1.4rem;
+}
+
+.about .sp {
+    background: url(../img/about-stpauls.jpg) top center no-repeat;
+    height: 23rem;
+}
+
+.about .placeholder {
+    background: url(http://placehold.it/175x190) top center no-repeat;
+    height: 23rem;
+}
+
+.about .conrad:hover, .about .velocity:hover, .about .eng:hover, .about .sso:hover, .about .sp:hover, .about .placeholder:hover {
+    background: url(../img/bg-about-hover.png) top center no-repeat;
+    cursor: pointer;
+}
+
+.about .conrad:hover h3, .about .velocity:hover h3, .about .eng:hover h3, .about .sso:hover h3, .about .sp:hover h3, .about .placeholder:hover h3 {
+    color: #222;
+}
+
+.social {
+    padding: 2rem 0;
+}
+
+.tint {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 1em 0;
+}
+
+.footer {
+    background-color: #252525;
+    padding: 1rem 0;
+}
+
+.footer a {
+    color: #FFF;
+}
+
+.footer a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.footer .address ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    color: #FFF;
+    font-size: .8rem;
+    list-style-image: url(../img/bullet-footer.png);
+}
+
+.footer .social-media img {
+    float: right;
+}
