@@ -179,6 +179,47 @@ blockquote {
 
 /* End panel styles */
 
+/* Nav section styles */
+
+.navigation {
+	background-color: #FFF4C9;
+}
+
+.navigation h1 {
+	text-align: left;
+	font-weight: 400;
+	color: #4C5154;
+	margin-bottom: 2rem;
+}
+
+.navigation .copy {
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 1rem;
+}
+
+.navigation .side-nav {
+	padding: 0 0 0.875rem 0;
+}
+
+.side-nav li a:not(.button) {
+	padding: .4375rem 0;
+}
+
+.navigation .side-nav li {
+	border-bottom: 1px dashed #CCC;
+}
+
+/* End nav section styles */
+
+.button {
+	background-color: #DC5114;
+}
+
+.button:hover {
+
+}
+
 .cwpb-return {
 	height: 11.25rem;
 	background: url(../img/alert-cwpb-return.png) top center no-repeat;

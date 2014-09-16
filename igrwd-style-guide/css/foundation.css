@@ -1163,7 +1163,7 @@ button, .button {
     text-align: right;
     padding-right: 0.75rem; }
   button.radius, .button.radius {
-    border-radius: 3px; }
+    border-radius: 5px; }
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
@@ -1758,7 +1758,7 @@ meta.foundation-mq-topbar {
     .alert-box .close:hover, .alert-box .close:focus {
       opacity: 0.5; }
   .alert-box.radius {
-    border-radius: 3px; }
+    border-radius: 5px; }
   .alert-box.round {
     border-radius: 1000px; }
   .alert-box.success {
@@ -1826,11 +1826,11 @@ meta.foundation-mq-topbar {
   .button-group.radius > *, .button-group.radius > * > a, .button-group.radius > * > button, .button-group.radius > * > .button {
     border-radius: 0; }
   .button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px; }
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; }
   .button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; }
   .button-group.round > * > button, .button-group.round > * .button {
     border-left: 1px solid;
     border-color: rgba(255, 255, 255, 0.5); }
@@ -1959,7 +1959,7 @@ meta.foundation-mq-topbar {
     .panel.callout a:not(.button) {
       color: #008cba; }
   .panel.radius {
-    border-radius: 3px; }
+    border-radius: 5px; }
 
 .dropdown.button, button.dropdown {
   position: relative;
@@ -2017,7 +2017,7 @@ meta.foundation-mq-topbar {
   .th:hover, .th:focus {
     box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
   .th.radius {
-    border-radius: 3px; }
+    border-radius: 5px; }
 
 .toolbar {
   background: #333;
@@ -2923,11 +2923,11 @@ blockquote p {
       background: white;
       color: #222222; }
   .tabs.radius dd:first-child a, .tabs.radius .tab:first-child a {
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px; }
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; }
   .tabs.radius dd:last-child a, .tabs.radius .tab:last-child a {
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; }
   .tabs.vertical dd, .tabs.vertical .tab-title {
     position: inherit;
     float: none;
@@ -3154,8 +3154,8 @@ ul.pagination {
   .split.button.secondary span:after {
     border-color: #333333 transparent transparent transparent; }
   .split.button.radius span {
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; }
   .split.button.round span {
     border-bottom-right-radius: 1000px;
     border-top-right-radius: 1000px; }
@@ -4582,8 +4582,8 @@ select::-ms-expand {
 
 .prefix.button.radius {
   border-radius: 0;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px; }
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px; }
 
 .postfix.button.radius {
   border-radius: 0;
@@ -4608,8 +4608,8 @@ span.prefix, label.prefix {
   border-color: #cccccc; }
   span.prefix.radius, label.prefix.radius {
     border-radius: 0;
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px; }
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; }
 
 span.postfix, label.postfix {
   background: #f2f2f2;
@@ -4618,8 +4618,8 @@ span.postfix, label.postfix {
   border-color: #cccccc; }
   span.postfix.radius, label.postfix.radius {
     border-radius: 0;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; }
 
 /* We use this to get basic styling on all basic form elements */
 input[type="text"],
