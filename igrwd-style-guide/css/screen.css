@@ -204,6 +204,11 @@ blockquote {
 
 .side-nav li a:not(.button) {
 	padding: .4375rem 0;
+	color: black;
+}
+
+.side-nav li a:hover {
+	color: #DC5114;
 }
 
 .navigation .side-nav li {
@@ -281,6 +286,19 @@ blockquote {
 	margin-bottom: .5em;
 	display: block;
 }
+
+/* SVG sprite */
+
+div.sprite
+{
+	display: inline-block;
+	width: 100px;
+	height: 100px;	
+}
+
+div#circle { background-image: url("../img/sprite.svg#circle"); }
+div#square { background-image: url("../img/sprite.svg#square"); }
+div#triangle { background-image: url("../img/sprite.svg#triangle"); }
 
 /* Media queries */
 
