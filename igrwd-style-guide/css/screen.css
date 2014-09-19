@@ -289,16 +289,7 @@ blockquote {
 
 /* SVG sprite */
 
-div.sprite
-{
-	display: inline-block;
-	width: 100px;
-	height: 100px;	
-}
 
-div#circle { background-image: url("../img/sprite.svg#circle"); }
-div#square { background-image: url("../img/sprite.svg#square"); }
-div#triangle { background-image: url("../img/sprite.svg#triangle"); }
 
 /* Media queries */
 
