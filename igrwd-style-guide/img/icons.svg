@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="2200" viewBox="0 0 100 2200">
 	<style type="text/css">
-		<![CDATA[ .bg-cancel-circle{fill:#C72C2C;} .bg-checkmark-circle{fill:#2CD47A;} .bg-youtube{fill:#EA2429;} .st15{fill:url(#SVGID_1_);} .bg-linkedin{fill:#0976b4;} .bg-twitter{fill:#55acee;}]]>
+		<![CDATA[ .bg-cancel-circle{fill:#C72C2C;} .bg-checkmark-circle{fill:#2CD47A;} .bg-facebook{fill:#3b5998;} .bg-youtube{fill:#EA2429;} .st15{fill:url(#SVGID_1_);} .bg-linkedin{fill:#0976b4;} .bg-twitter{fill:#55acee;}]]>
 	</style>
 	<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="cancel-circle-no-grid-100" xml:space="preserve" height="100" viewBox="0 0 100 100" width="100" version="1.1" y="0" x="0px" enable-background="new 0 0 100 100">
 		<path class="bg-cancel-circle" d="m50 0c-27.614 0-50 22.386-50 50s22.386 50 50 50 50-22.386 50-50-22.386-50-50-50zm25 33.839l-16.161 16.161 16.161 16.161v8.839h-8.839l-16.161-16.161-16.161 16.161h-8.839v-8.839l16.161-16.161-16.161-16.161v-8.839h8.839l16.161 16.161 16.161-16.161h8.839v8.839z"/>
