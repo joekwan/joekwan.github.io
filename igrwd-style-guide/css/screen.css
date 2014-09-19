@@ -289,7 +289,13 @@ blockquote {
 
 /* SVG sprite */
 
+.icon {
+	
+}
 
+.st16 {
+	fill: #0976b4 !important;
+}
 
 /* Media queries */
 
