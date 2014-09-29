@@ -92,11 +92,23 @@ h2 {
 .infographic {
     padding: 4rem 0;
     border-bottom: 1px solid #CCC;
+    height: 50rem;
+    overflow: hidden;
 }
 
 .infographic img {
     display: block;
     margin: 0 auto;
+}
+
+.infographic .even {
+    height: 10rem;
+    background-color: #369;
+}
+
+.infographic .odd {
+    height: 10rem;
+    background-color: #090;
 }
 
 .events {

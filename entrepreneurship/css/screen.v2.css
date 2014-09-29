@@ -101,6 +101,21 @@ h2 {
     margin: 0 auto;
 }
 
+.infographic .scroller {
+    height: 20rem;
+    overflow: scroll;
+}
+
+.infographic .even {
+    height: 20rem;
+    background-color: #369;
+}
+
+.infographic .odd {
+    height: 20rem;
+    background-color: #090;
+}
+
 .events {
     padding: 2rem 0;
     border-bottom: 1px solid #CCC;
