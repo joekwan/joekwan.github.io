@@ -129,7 +129,7 @@ blockquote {
     width: 100%;  
     left: 0;  
     top: 0;  
-    z-index: 100;  
+    z-index: 1000;  
     border-top: 0;
     margin-top: 0;
 }
@@ -384,13 +384,13 @@ ul.children {
 .video-wrapper {
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .video-wrapper p {
 	text-align: right;
 	margin-bottom: 0;
-	margin-bottom: 1rem;
+	margin: .75rem 0;
 }
 
 .video-content h1, .video-content h2, .video-content h3 {
@@ -419,13 +419,19 @@ iframe.video-container {
 	padding: 1rem !important;
 }
 
-.video-module {
+.video-module h3 {
+	margin-bottom: 1rem;
+}
+
+.video-module h4 {
+	border-top: 1px solid rgba(0,0,0,.1);
+	padding-top: 1rem;
 }
 
 .video-transcript {
 	font-size: .7rem;
 	text-transform: uppercase;
-	margin-right: .25rem;	
+	margin: 1rem .25rem 1rem;
 	color: #000;
 	border-bottom: none;
 }
@@ -436,8 +442,100 @@ iframe.video-container {
 	padding-bottom: 1px;
 }
 
+.video-carousel-large {
+	margin-top: 2rem;
+}
+
+.video-carousel-large .panel {
+	border: none;
+	padding: 1rem;
+}
+
+.video-carousel-large h2 {
+	text-align: left;
+	font-size: 1.4rem;
+	font-weight: 200;
+	font-size: 2rem;
+	margin: 1.25rem 0 0rem;
+	padding-left: 0;
+}
+
+.video-carousel-large .video-copy {
+	border: 1px dashed #CCC;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 1rem !important;
+	background-color: white !important;
+}
+
+.video-carousel-large .panel {
+	margin-bottom: 0;
+}
+
+.video-carousel-large .video-transcript {
+	margin-right: 0;
+}
+
+.video-carousel-large .panel.video-wrapper {
+	margin-top:1.5rem;
+	background-color:#BFB793 !important;
+	padding-bottom:.9rem;
+}
+
+.video-carousel-small h3 {
+	font-weight: 200;
+	margin: 1.5rem 0 0 .9rem;
+}
+
+.video-carousel-small .panel.video-wrapper {
+	padding: 0;
+	padding-top: 1.5rem;
+	padding-bottom: .9rem;
+	margin: 0;
+	background-color:#BFB793 !important;
+}
+
+.video-carousel-small .video-transcript {
+	margin-right: .7rem;
+}
+
+.video-carousel-small .video-copy {
+	margin-bottom: 3rem !important;
+	padding: .9rem 0 .9rem .7rem;
+	border: 1px dashed #CCC;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.video-carousel-large .button, .video-carousel-small .button {
+	color: #DC5114;
+	border: 1px solid #DC5114;
+	background-color: white;
+	font-size: .8rem;
+}
+
+.video-carousel-small .button {
+	width: 22.7rem;
+}
+
+.size-15 {
+	font-size: 15px;
+}
+
+.size-18 {
+	font-size: 18px;
+}
+
+.size-21 {
+	font-size: 21px
+}
+
 .size-24 {
 	font-size: 24px;
+}
+
+.size-36 {
+	font-size: 36px;
 }
 
 /***** Media queries *****/
