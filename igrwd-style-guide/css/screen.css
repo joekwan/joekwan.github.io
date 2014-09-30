@@ -10,8 +10,13 @@ h1 {
 	color: #00416F;
 }
 
-h2, h3 {
+h2, h3, h5 {
 	text-align: center;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-weight: 200;
 }
 
 p, li {
@@ -326,6 +331,10 @@ ul#collapsing-nav ul.children li {
 	list-style: none;
 }
 
+.parent {
+	padding: .5rem 0;
+}
+
 .side-nav li {
 	margin-bottom: 0 !important;
 }
@@ -444,6 +453,7 @@ iframe.video-container {
 
 .video-carousel-large {
 	margin-top: 2rem;
+	margin-bottom: -3rem;
 }
 
 .video-carousel-large .panel {
@@ -480,6 +490,10 @@ iframe.video-container {
 	margin-top:1.5rem;
 	background-color:#BFB793 !important;
 	padding-bottom:.9rem;
+}
+
+.video-carousel-small {
+	margin-bottom: -2rem;
 }
 
 .video-carousel-small h3 {
