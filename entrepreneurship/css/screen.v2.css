@@ -238,22 +238,19 @@ h2 {
 
 .about .conrad {
     background: url(../img/about-conrad.jpg) top center no-repeat;
-    height: 23rem;
+    margin-bottom: .5rem;
 }
 
 .about .velocity {
     background: url(../img/about-velocity.jpg) top center no-repeat;
-    height: 23rem;
 }
 
 .about .eng {
     background: url(../img/about-engineering.jpg) top center no-repeat;
-    height: 23rem;
 }
 
 .about .sso {
     background: url(../img/about-sso.jpg) top center no-repeat;
-    height: 23rem;
 }
 
 .about .sso span {
@@ -262,12 +259,10 @@ h2 {
 
 .about .sp {
     background: url(../img/about-stpauls.jpg) top center no-repeat;
-    height: 23rem;
 }
 
 .about .placeholder {
     background: url(http://placehold.it/175x190) top center no-repeat;
-    height: 23rem;
 }
 
 .about .conrad:hover, .about .velocity:hover, .about .eng:hover, .about .sso:hover, .about .sp:hover, .about .placeholder:hover {

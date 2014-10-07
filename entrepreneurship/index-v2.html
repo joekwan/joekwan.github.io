@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/foundation.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/screen.v2.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.appfolders.css" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700,800' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
@@ -124,28 +125,57 @@
         <div class="large-12 columns">
           <h2>Laoreet secundum sit exerci</h2>
           <p class="desc">Refero odio ad paulatim at iriure minim illum ad. Eum genitus in et ea neo. Loquor modo nunc interdico luptatum voco ad saluto. Ea fere wisi transverbero zelus os macto utrum accumsan.</p>
-          <div class="row">
-            <div class="large-fifth columns conrad">
-              <h3>Conrad</h3>
-              <p><a href="#">Rusticus adsum nibh hendrerit pertineo in ullamcorper. Ut consequat consequat nulla. Abbas odio blandit.</a></p>
+          
+          <div class="row app-folders-container">
+            <div class="jaf-row jaf-container">
+              <div class="large-fifth columns folder conrad" id="01">
+                <a href="#"><h3>Conrad</h3></a>
+              </div>
+              <div class="large-fifth columns folder velocity" id="02">
+                <h3>Velocity</h3>
+              </div>
+              <div class="large-fifth columns folder eng" id="03">
+                <h3>Engineering</h3>
+              </div>
+              <div class="large-fifth columns folder sso" id="04">
+                <h3>Student success</h3>
+              </div>
+              <div class="large-fifth columns folder sp" id="05">
+                <h3>St. Paul's</h3>
+              </div>
             </div>
-            <div class="large-fifth columns velocity">
-              <h3>Velocity</h3>
-              <p><a href="#">In paratus jugis damnum ut. Metuo capio qui inhibeo vulputate sudo dolore abluo.</a></p>
+            <div class="folderContent 01">
+              <div class="jaf-container row">
+                <div class="large-6 columns">
+                  <p>Bacon ipsum dolor sit amet doner leberkas kielbasa pork loin. Drumstick tail ball tip cow spare ribs. Beef ribs shank pig porchetta. Leberkas strip steak beef ball tip landjaeger pancetta.</p>
+                </div>
+                <div class="large-6 columns">
+                  <p>Bacon ipsum dolor sit amet doner leberkas kielbasa pork loin. Drumstick tail ball tip cow spare ribs. Beef ribs shank pig porchetta. Leberkas strip steak beef ball tip landjaeger pancetta.</p>
+                </div>
+              </div>
             </div>
-            <div class="large-fifth columns eng">
-              <h3>Engineering</h3>
-              <p><a href="#">Opes ad ventosus indoles uxor nullus occuro. Abbas vulpes duis fere magna saepius metuo quadrum sed facilisi.</a></p>
+            <div class="folderContent 02">
+              <div class="jaf-container">
+                <p>Content for folder one.</p>
+              </div>
             </div>
-            <div class="large-fifth columns sso">
-              <h3>Student success</h3>
-              <p><a href="#">Pneum verto importunus nibh lobortis abbas eum virtus consequat.</a></p>
+            <div class="folderContent 03">
+              <div class="jaf-container">
+                <p>Content for folder one.</p>
+              </div>
             </div>
-            <div class="large-fifth columns sp">
-              <h3>St. Paul's</h3>
-              <p><a href="#">Ad accumsan mos plaga luctus damnum wisi abbas. Tation decet quis ille nobis ea iusto tation multo.</a></p>
+            <div class="folderContent 04">
+              <div class="jaf-container">
+                <p>Content for folder one.</p>
+              </div>
+            </div>
+            <div class="folderContent 05">
+              <div class="jaf-container">
+                <p>Content for folder one.</p>
+              </div>
             </div>
           </div>
+
           <div class="row">
             <div class="large-fifth columns placeholder">
               <h3>Jugis</h3>
@@ -212,6 +242,7 @@
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/jquery.fancybox.js"></script>
+    <script src="js/vendor/jquery.appfolders.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       
@@ -219,6 +250,7 @@
       
       $(document).ready(function() {
         $(".fancybox").fancybox();
+        $(".app-folders-container").appFolders();
       });
 
     </script>
